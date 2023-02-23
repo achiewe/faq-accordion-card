@@ -15,7 +15,7 @@ body{
     width:100%;
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-image:linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
     background-repeat: no-repeat ;
@@ -118,3 +118,102 @@ hr{
 
 }
 
+
+
+
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+/* desktop version */
+
+
+@media screen and ( min-width: 1024px){
+    .main-div{
+        width:920px;
+        height:509px;
+        background-image: url("./images/bg-pattern-desktop.svg"), url("./images/illustration-woman-online-desktop.svg") ;
+        background-repeat: no-repeat;
+        background-size:963px 944px, 470px 360px;
+        background-position: -570px -290px, -80px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 65px 95px 83px 0;
+        margin:130px 0;
+        background-color: var(--white);
+        border-radius:23px;
+    }
+
+    .image-div{
+        display: unset;
+        height: 500px;
+        width:50%;
+        margin-bottom: 0px;
+    }
+
+    #box-desktop{
+        display: unset;
+        top: 160px;
+        left: -90px;
+        overflow: visible;
+        position: absolute;
+    }
+    
+    #mobile-shadow{
+        display:none;
+    }
+    
+    #illustration-mobile{
+        display:none;
+    }
+
+    .main-container{
+        width:350px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:45px;
+    }
+
+    .main-container h1{
+        font-family:'Kumbh Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        color:var(--dark-blue);
+    }
+
+    .middle-div{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap:15px;
+    }
+
+    hr{
+        width:350px;
+        height:1px;
+        border:0px;
+        background-color:var(--light-grey);
+    }
+
+    .question a{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.36px;
+        letter-spacing: 0px;
+        text-align: left;
+        color:var(--dark-purple);
+    }
+
+}
