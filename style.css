@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --white:#FFFFFF;
+    --dark-blue:#1E1F36;
+    --dark-purple:#4B4C5F;
+    --purple:#787887;
+    --orange:#F47B56;
+    --light-grey:#E8E8EA;
+}
+
+body{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image:linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-repeat: no-repeat ;
+    width:100%;
+}
+
+.main-div{
+    width:327px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:148px;
+    margin-bottom:85px;
+    background-color: var(--white);
+    border-radius:23px;
+    padding-bottom: 48px;
+}
+
+.image-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+#box-desktop{
+    display:none;
+}
+
+#mobile-shadow{
+    position:relative;
+}
+
+#illustration-mobile{
+    position:absolute;
+    width:236.85px;
+    top:-110px;
+}
+
+.main-container{
+    width:279px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+
+}
+
+.main-container h1{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color:var(--dark-blue);
+}
+
+.middle-div{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:15px;
+}
+
+.question{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr{
+    width:279px;
+    height:1px;
+    border:0px;
+    background-color:var(--light-grey);
+}
+
+.question a{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:var(--dark-purple);
+}
+
+#info{
+    display:none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:var(--purple);
+
+}
+
