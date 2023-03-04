@@ -14,7 +14,6 @@ for(let i = 0; i < ask.length; i++) {
         } else {
             searchActive?.classList.remove('active');
             ask[i].parentElement.parentElement.classList.toggle('active');
-            console.log('elsshi shevida');
         }
 
         
