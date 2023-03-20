@@ -29,7 +29,7 @@ Users should be able to:
 ![](./design/desktop-preview.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://achiewe.github.io/faq-accordion-card/]
 
 ## My process
 
